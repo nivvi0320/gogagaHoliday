@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.space {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.favourite-places-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    padding: 24px;
+    overflow-y:auto;
+}
+
+.favourite-places-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.hotel {
+
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.search {
+    border-radius: 5px;
+    width: 380px;
+}
+
+.card {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 75%;
+    height: 500px;
+    background-size: cover;
+    background-color: #E7DFEB;
+
+
+}
+
+.favourite-place-card-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.favourite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.favourite-place-card-image {
+    width: 80px;
+    height: 100px;
+}
+
+.favourite-place-card-text-container {
+    margin-right: 15px;
+}
+
+.homepage {
+    text-align: center;
+    background-size: cover;
+
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+}
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/goa-c3-img.png");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+
+    align-items: flex-end;
+}
+
+.input-label {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+    width: 100vw;
+
+}
+
+.button-maker-container {
+    border-radius: 10px;
+}
+
+.user-input {
+    width: 100%;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cbd2d9;
+    border-radius: 4px;
+    padding-left: 12px;
+}
+
+.bt {
+    background-color: #FF3361;
+    border-width: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 40px;
+    color: white;
+    width: 100px;
+
+
+
+
+}
+
+
+.button {
+    color: white;
+    background-color: #25b1cc;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+
+}
+
+.main-heading {
+    font-family: "Roboto";
+}
+
+.paragraph {
+    font-family: "Roboto";
+}
+@media (orientation: landscape) {
+    .favourite-place-card-heading{
+        order: 1;
+    }
+    .favourite-place-card-description{
+        order: 2;
+    }
+    .favourite-place-card-image{
+        order: 3;
+    }
+}
+@media (min-width:768px){
+    .card1{
+        display:flex;
+        direction: row;
+        padding: 10px;
+    }
+    .favourite-place-card-image{
+        display: flex;
+        order: 1;
+        justify-content:flex-end ;
+        align-self: flex-end;
+        margin: left;
+    }
+
+}
+body{
+    padding: 0px;
+}
